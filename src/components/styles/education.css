@@ -1,0 +1,196 @@
+.education {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.titleSubHsatu {
+    font-family: JetBrains Mono;
+    font-size: 28px;
+}
+
+.hSatuEducation {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.iconEducation {
+    color: #00ff99;
+}
+
+.cardGridEducation {
+    border: 1.8px solid #00ff99;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.titleEducationCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gridEducation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    height: 250px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.gridEducation::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+    height: 100%;
+    background: #121212;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.gridEducation::-webkit-scrollbar-thumb {
+    display: block;
+    background: #00ff99;
+    border-radius: 20px;
+}
+
+.codeTitle {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.codeSubTitle {
+    font-family: JetBrains Mono;
+    font-size: 20px;
+    color: #00ff99;
+}
+
+.yearEducationCard {
+    font-size: 12px;
+    padding: 2px 5px;
+    background: #00ff99;
+    height: fit-content;
+    border-radius: 10px;
+    color: #121212;
+}
+
+.kananExp {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.yearEducationCardJenis {
+    display: flex;
+    justify-content: end;
+    font-size: 14px;
+}
+
+.yearEducationCardkontol {
+    padding: 2px 5px;
+    background: #00ff99;
+    height: fit-content;
+    border-radius: 10px;
+    color: #121212;
+    font-size: 14px;
+}
+
+@media (max-width: 480px) {
+    .iconEducation {
+        font-size: 12px;
+    }
+
+    .titleSubHsatu {
+        font-size: 12px;
+    }
+
+    .codeTitle {
+        font-size: 12px;
+    }
+
+    .codeSubTitle {
+        font-size: 8px;
+    }
+
+    .yearEducationCard {
+        font-size: 6px;
+    }
+
+    .cardGridEducation {
+        height: 60px;
+    }
+
+    .gridEducation {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        height: 125px;
+    }
+
+    .yearEducationCardJenis {
+        font-size: 8px;
+    }
+
+    .yearEducationCardkontol {
+        display: flex;
+        justify-content: end;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 481px) and (max-width:680px) {
+    .iconEducation {
+        font-size: 18px;
+    }
+
+    .titleSubHsatu {
+        font-size: 18px;
+    }
+
+    .codeTitle {
+        font-size: 12px;
+    }
+
+    .codeSubTitle {
+        font-size: 14px;
+    }
+
+    .yearEducationCard {
+        font-size: 4px;
+        padding: 5px;
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cardGridEducation {
+        height: 80px;
+    }
+
+    .gridEducation {
+        height: 225px;
+    }
+
+    .yearEducationCardJenis {
+        font-size: 8px;
+    }
+
+    .kananExp {
+        display: flex;
+        width: 20%;
+    }
+
+    .yearEducationCardkontol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3.5px;
+        width: 100%;
+    }
+}

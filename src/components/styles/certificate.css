@@ -1,0 +1,63 @@
+.cetificateImage {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.gridCertificate {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    height: 240px;
+    border-radius: 5px;
+}
+
+.gridCertificate::-webkit-scrollbar-thumb {
+    width: 5px;
+    height: 10px;
+    display: block;
+    border-radius: 20px;
+    background: #00ff99;
+}
+
+.gridCertificate::-webkit-scrollbar {
+    width: 5px;
+    display: block;
+    background: #121212;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+@media (max-width: 480px) {
+    .aboutMeSpan {
+        font-size: 16px;
+    }
+
+    .iconAboutMe {
+        font-size: 16px;
+    }
+
+    .gridCertificate {
+        height: 100px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px) {
+    .certificate {
+        width: 100%;
+
+    }
+
+    .gridCertificate {
+        height: 260px;
+        width: 100%;
+    }
+}

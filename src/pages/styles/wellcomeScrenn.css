@@ -1,0 +1,145 @@
+.wellcomeScreen {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #121212, rgba(0, 0, 255, 0.272));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wellcomeScreenContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+}
+
+.iconWellcomeScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.iconContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1.5px solid #00ff;
+    position: relative;
+    box-shadow: 0 0 100px #09f;
+}
+
+.iconWellcome {
+    font-size: 36px;
+}
+
+.titleWellcomeScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.titleSatu {
+    color: transparent;
+    background-clip: text;
+    font-family: JetBrains Mono;
+    font-size: 66px;
+    position: relative;
+    font-weight: 800;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.subWelcomeOutline {
+    color: transparent;
+    -webkit-text-stroke: 1.5px white;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.wellcomeSpan{
+    font-weight: 900;
+}
+
+.subTitleSatu {
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: 0px 0px 50px #fff;
+    position: relative;
+    background: linear-gradient(45deg, #00ff99, #0099ff);
+    background-clip: text;
+    color: transparent;
+}
+
+.websiteSiteUrl {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+}
+
+.globeIcon {
+    color: #00ff99;
+}
+
+.textSubUrl {
+    color: #00ff99;
+    text-shadow: #00ff99 0px 0px 50px;
+}
+
+.glowWellcomeScreenKiriAtas {
+    width: 500px;
+    height: 300px;
+    background: radial-gradient(#00ff996c, transparent 50%);
+    border-radius: 50%;
+    opacity: 0.2;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.glowWellcomeScreenKananBawah {
+    width: 500px;
+    height: 300px;
+    background: radial-gradient(#00ff996c, transparent 50%);
+    border-radius: 50%;
+    opacity: 0.2;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.blurEffect {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.5s ease;
+}
+
+.blurAktif {
+    opacity: 1;
+}

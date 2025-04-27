@@ -1,0 +1,117 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titledaniconAboutMe {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    color: #00ff99;
+    font-size: 28px;
+}
+
+.aboutMeSpan {
+    font-family: JetBrains Mono;
+    color: #fff;
+}
+
+.descAboutMeSpanP {
+    text-align: justify;
+    font-size: 14px;
+    text-shadow: 0px 0px 25px #00ff99;
+}
+
+.contentAboutMe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gridCardContentAboutMe {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.Quest {
+    color: #999;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.Answers {
+    color: #fff;
+    font-family: JetBrains Mono;
+    font-size: 18px;
+    text-shadow: 0px 0px 50px #00ff99;
+}
+
+@media (max-width: 480px) {
+    .iconAboutMe {
+        font-size: 16px;
+    }
+
+    .aboutMeSpan {
+        font-size: 16px;
+    }
+
+    .descAboutMeSpanP {
+        font-size: 8px;
+    }
+
+    .Quest {
+        font-size: 8px;
+    }
+
+    .Answers {
+        font-size: 6px;
+    }
+
+    .contentAboutMe {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px) {
+
+    .aboutme {
+        padding: 0 0;
+        width: 100%;
+    }
+
+    .iconAboutMe {
+        font-size: 22px;
+    }
+
+    .aboutMeSpan {
+        font-size: 22px;
+    }
+
+    .descAboutMeSpanP {
+        font-size: 12px;
+    }
+
+    .Quest {
+        font-size: 12px;
+    }
+
+    .Answers {
+        font-size: 14px;
+    }
+
+    .gridCardContentAboutMe {
+        gap: 10px;
+    }
+
+    .contentAboutMe {
+        gap: 10px;
+    }
+}

@@ -1,0 +1,650 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    padding-top: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+}
+
+.contactcFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.commentsContact {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.atasUntukPostComment {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.formInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleFormContact {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitleContact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    color: #00ff99;
+}
+
+.iconSubTitleContact {
+    font-size: 32px;
+}
+
+.messageContactFormSubTitle {
+    padding: 0 10px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.formInput {
+    width: 100%;
+    padding: 10px;
+}
+
+.labelForm {
+    font-weight: 600;
+}
+
+.inputMode {
+    height: 50px;
+    padding: 10px;
+    background: #151515;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    outline: none;
+    color: white;
+}
+
+.messageTextArea {
+    height: 160px;
+    background: #151515;
+    border-radius: 20px;
+    border: 1.5px solid white;
+    padding: 10px;
+    outline: none;
+    color: white;
+    resize: none;
+    font-family: Poppins;
+}
+
+.buttonSubmitAnjay {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.buttonSubmit {
+    padding: 5px 20px;
+    background: #00ff99;
+    border: #00ff99 1.5px solid;
+    outline: none;
+    border-radius: 10px;
+    color: #121212;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttonSubmit:hover {
+    background: #121212;
+    color: #fff;
+}
+
+.titleComments {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px 1rem;
+    border-bottom: 1px solid #888;
+}
+
+.iconMessageBox {
+    padding: 5px;
+    font-size: 24px;
+    border: 1.5px solid #00613a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00ff99;
+}
+
+.commentTitleComment {
+    font-family: JetBrains Mono;
+    color: #00ff99;
+    font-size: 24px;
+}
+
+.inputUntukComment {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    background: #151515;
+    border: 1.5px solid #f1f1f1;
+    outline: none;
+    color: #fff;
+}
+
+.textAreaComment {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    background: #151515;
+    border: 1.5px solid #f1f1f1;
+    padding: 10px;
+    font-family: Poppins;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.imgView {
+    font-size: 20px;
+    width: 21px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputFileDiv {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    border: 1.5px solid #fff;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.centerField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+}
+
+.buttonPostComment {
+    padding: 5px;
+    background: #00ff99;
+    outline: none;
+    border: 1px solid #00ff99;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #121212;
+    transition: .5s;
+}
+
+.buttonPostComment:hover {
+    background: #121212;
+    color: #00ff99;
+}
+
+.bawahUntukGetComments {
+    width: 100%;
+    height: 200px;
+    /* border: 1.5px solid #00ff99; */
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.imageProfile {
+    width: 30px;
+    border-radius: 50%;
+    font-size: 30px;
+}
+
+.commentBoy {
+    display: flex;
+    justify-content: space-between;
+    border: 1.5px solid #00ff99;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.imageDanUsername {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.commentFieldGet {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+}
+
+.usernameDanMessage {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.usernameComment {
+    color: #00ff99;
+}
+
+.createdAt {
+    font-size: 10px;
+}
+
+.pCreatedAt {
+    background: #00ff99;
+    padding: 2px;
+    color: #151115;
+    border-radius: 5px;
+}
+
+.skeleton {
+    background: #e0e0e0;
+    border-radius: 4px;
+    animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0.3;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.3;
+    }
+}
+
+.imageProfileSkeleton {
+    width: 30px;
+    height: 30px;
+    background: #e0e0e0;
+    border-radius: 50%;
+}
+
+.textGlowHome {
+    text-shadow: 0px 0px 25px #00ff99;
+}
+
+.textSkeleton.short {
+    width: 80px;
+    height: 12px;
+    margin-bottom: 6px;
+}
+
+.textSkeleton.long {
+    width: 200px;
+    height: 12px;
+}
+
+.createdAtSkeleton {
+    width: 60px;
+    height: 10px;
+    margin-top: 10px;
+}
+
+.glowInContact {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#00ff9919 2%, transparent 50%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    animation: bergerak 5s linear infinite;
+}
+
+@keyframes bergerak {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    25% {
+        transform: translateX(400px) translateY(-50px);
+    }
+
+    50% {
+        transform: translateX(0px) translateY(-100px);
+    }
+
+    75% {
+        transform: translateX(-400px) translateY(-50px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+.glowInContactReverse {
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(#00ff9919 2%, transparent 50%);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    animation: bergerakTerbalik 5s linear infinite;
+}
+
+@keyframes bergerakTerbalik {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    25% {
+        transform: translateX(-400px) translateY(50px);
+    }
+
+    50% {
+        transform: translateX(0px) translateY(100px);
+    }
+
+    75% {
+        transform: translateX(400px) translateY(50px);
+    }
+
+    100% {
+        transform: translateX(0px) translateY(0px);
+    }
+}
+
+@media (max-width: 480px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 0 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .glowInContact {
+        display: none;
+    }
+
+    .glowInContactReverse {
+        display: none;
+    }
+
+    .subtitleContact {
+        font-size: 8px;
+    }
+
+    .iconSubTitleContact {
+        font-size: 12px;
+    }
+
+    .messageContactFormSubTitle {
+        font-size: 6px;
+    }
+
+    .labelForm {
+        font-size: 8px;
+    }
+
+    .inputMode {
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .messageTextArea {
+        height: 80px;
+        font-size: 8px;
+    }
+
+    .buttonSubmit {
+        font-size: 8px;
+        padding: 5px 10px;
+    }
+
+    .commentTitleComment {
+        font-size: 12px;
+    }
+
+    .iconMessageBox {
+        display: none;
+    }
+
+    .inputUntukComment {
+        height: 20px;
+        font-size: 8px;
+    }
+
+    .textAreaComment {
+        height: 60px;
+        font-size: 8px;
+    }
+
+    .centerField {
+        font-size: 4px;
+    }
+
+    .buttonPostComment {
+        font-size: 8px;
+    }
+
+    .imageProfile {
+        width: 15px;
+        font-size: 15px;
+    }
+
+    .usernameComment {
+        font-size: 7px;
+    }
+
+    .messageComment {
+        font-size: 5px;
+    }
+
+    .createdAt {
+        display: none;
+    }
+
+    .imgView {
+        width: 15px;
+        font-size: 14px;
+    }
+
+    .bawahUntukGetComments {
+        height: 100px;
+    }
+
+    .commentFieldGet::-webkit-scrollbar {
+        width: 5px;
+        height: 100%;
+        background: #121212;
+    }
+
+    .commentFieldGet::-webkit-scrollbar-thumb {
+        width: 5px;
+        height: 20px;
+        background: #00ff99;
+        border-radius: 20px;
+    }
+
+    .imageProfileSkeleton {
+        width: 15px;
+        height: 15px;
+    }
+
+    .textSkeleton.short {
+        width: 50%;
+        height: 8px;
+        margin-bottom: 4px;
+    }
+
+    .textSkeleton.long {
+        width: 80%;
+        height: 8px;
+    }
+
+    .createdAtSkeleton {
+        width: 40px;
+        height: 8px;
+        margin-top: 6px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px) {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        padding: 10rem 0 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .glowInContact {
+        display: none;
+    }
+
+    .glowInContactReverse {
+        display: none;
+    }
+
+    .subtitleContact {
+        font-size: 10px;
+    }
+
+    .iconSubTitleContact {
+        font-size: 16px;
+    }
+
+    .messageContactFormSubTitle {
+        font-size: 8px;
+    }
+
+    .labelForm {
+        font-size: 10px;
+    }
+
+    .inputMode {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .messageTextArea {
+        height: 100px;
+        font-size: 10px;
+    }
+
+    .buttonSubmit {
+        font-size: 10px;
+        padding: 5px 15px;
+    }
+
+    .commentTitleComment {
+        font-size: 16px;
+    }
+
+    .iconMessageBox {
+        display: none;
+    }
+
+    .inputUntukComment {
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .textAreaComment {
+        height: 70px;
+        font-size: 10px;
+    }
+
+    .centerField {
+        font-size: 6px;
+    }
+
+    .buttonPostComment {
+        font-size: 10px;
+    }
+
+    .imageProfile {
+        width: 20px;
+        font-size: 20px;
+    }
+
+    .usernameComment {
+        font-size: 10px;
+    }
+
+    .messageComment {
+        font-size: 8px;
+    }
+
+    .createdAt {
+        display: none;
+    }
+
+    .imgView {
+        width: 20px;
+        font-size: 16px;
+    }
+
+    .bawahUntukGetComments {
+        height: 120px;
+    }
+
+    .commentFieldGet::-webkit-scrollbar {
+        width: 5px;
+        height: 100%;
+        background: #121212;
+    }
+
+    .commentFieldGet::-webkit-scrollbar-thumb {
+        width: 5px;
+        height: 20px;
+        background: #00ff99;
+        border-radius: 20px;
+    }
+
+    .imageProfileSkeleton {
+        width: 20px;
+        height: 20px;
+    }
+
+    .textSkeleton.short {
+        width: 60%;
+        height: 10px;
+        margin-bottom: 5px;
+    }
+
+    .textSkeleton.long {
+        width: 85%;
+        height: 10px;
+    }
+
+    .createdAtSkeleton {
+        width: 50px;
+        height: 8px;
+        margin-top: 8px;
+    }
+}

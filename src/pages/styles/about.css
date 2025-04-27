@@ -1,0 +1,422 @@
+.about {
+    padding: 5.5rem 4rem 0;
+    min-height: 100dvh;
+}
+
+.myPhoto {
+    width: 50px;
+    border-radius: 10%;
+    border: 2px solid white;
+    filter: grayscale(1);
+    pointer-events: none;
+}
+
+.titleAbout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sayHiAbout {
+    font-size: 32px;
+    font-weight: 300;
+    text-shadow: 0px 0px 25px #00ff99;
+}
+
+.MyNameAbout {
+    font-size: 36px;
+    font-family: JetBrains Mono;
+    color: #00ff99;
+    font-weight: 400;
+}
+
+.aboutKiri {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 300px;
+    gap: 5px;
+}
+
+.aboutKanan {
+    width: 80%;
+    height: 300px;
+    /* border: 1px solid white; */
+    position: relative;
+}
+
+.kananKiriAbout {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.descriptAbout {
+    text-align: justify;
+    text-shadow: 0px 0px 25px #00ff99;
+}
+
+.buttonSwitchCase {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.buttonSwitchResume {
+    padding: 10px;
+    border-radius: 10px;
+    background: #00ff99;
+    border: 1.5px solid #00ff99;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #010101;
+    font-weight: 400;
+    font-size: 14px;
+    transition: 0.6s;
+}
+
+.iconButtonResume {
+    font-size: 18px;
+}
+
+.buttonSwitchResume:hover {
+    background: #121212;
+    color: #00ff99;
+}
+
+.profileActive {
+    background: #121212;
+    color: #00ff99;
+}
+
+.bagianBawahKiri {
+    width: 30%;
+    height: 200px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #212121;
+    border-radius: 15px;
+    display: flex;
+    box-shadow: 0px 0px 25px #313131;
+}
+
+.bagianBawahResume {
+    padding: 20px 0 0;
+    width: 100%;
+}
+
+.kananKiri {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    position: relative;
+}
+
+.BagianBawahkanan {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.titleMySkill {
+    padding: 10px 45px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 34px;
+}
+
+.titlehDua {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 5px;
+    border: 1.5px solid #008650;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.gridIconResumeKananBawah {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 35px 40px;
+    justify-content: center;
+}
+
+.iconContainerGrid {
+    padding: 10px;
+    border: #313131 2px solid;
+    background: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px #313131;
+}
+
+.iconGridKananBawah {
+    font-size: 34px;
+    color: #777;
+    transition: 0.5s;
+}
+
+.iconGridKananBawah:hover {
+    color: #00ff99;
+}
+
+.titleHDuaIcon {
+    color: #99ffd6;
+}
+
+.JetBrainsMono {
+    font-family: JetBrains Mono;
+}
+
+.mapsGmabr {
+    width: 100%;
+    filter: grayscale(1) invert(1);
+    border-radius: 15px;
+}
+
+.gradientMaps {
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(0deg, #121212 45%, transparent);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+.spanDiv {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.spanSemarang {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.mapsTitleMaps {
+    position: absolute;
+    left: 2%;
+    top: 5%;
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #919191;
+    border-radius: 15px;
+    font-weight: 300;
+    color: #121212;
+}
+
+@media (max-width: 480px) {
+    .kananKiriAbout {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sayHiAbout {
+        font-size: 12px;
+    }
+
+    .myPhoto {
+        width: 25px;
+    }
+
+    .MyNameAbout {
+        font-size: 12px;
+    }
+
+    .descriptAbout {
+        font-size: 8px;
+    }
+
+    .buttonSwitchResume {
+        padding: 5px;
+        font-size: 12px;
+    }
+
+    .iconButtonResume {
+        font-size: 12px;
+    }
+
+    .aboutKiri {
+        height: 200px;
+    }
+
+    .aboutKanan {
+        height: 165px;
+    }
+
+    .kananKiri {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bagianBawahKiri {
+        display: none;
+    }
+
+    .BagianBawahkanan {
+        width: 100%;
+        padding: 0;
+    }
+
+    .JetBrainsMono {
+        font-size: 18px;
+    }
+
+    .titleHDuaIcon {
+        font-size: 12px;
+    }
+
+    .titleMySkill {
+        display: flex;
+        justify-content: center;
+    }
+
+    .iconGridKananBawah {
+        font-size: 14px;
+    }
+
+    .gridIconResumeKananBawah {
+        padding: 0;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 680px) {
+    .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .bagianBawahKiri {
+        height: 170px;
+        width: 90%;
+    }
+
+    .mapsGmabr {
+        height: 100%;
+    }
+
+    .aboutContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .kananKiriAbout {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+    }
+
+    .sayHiAbout {
+        font-size: 22px;
+    }
+
+    .MyNameAbout {
+        font-size: 24px;
+    }
+
+    .myPhoto {
+        width: 45px;
+    }
+
+    .descriptAbout {
+        font-size: 8px;
+    }
+
+    .buttonSwitchResume {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    .aboutKiri {
+        width: 100%;
+        padding: 0 2rem;
+        height: 195px;
+    }
+
+    .buttonSwitchCase {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .iconButtonResume {
+        font-size: 16px;
+    }
+
+    .aboutKanan {
+        height: 320px;
+        width: 100%;
+    }
+
+    .bagianBawahResume {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kananKiri {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titleHDuaIcon {
+        font-size: 12px;
+    }
+
+    .JetBrainsMono {
+        font-size: 18px;
+    }
+
+    .titleMySkill {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .iconGridKananBawah {
+        font-size: 32px;
+    }
+
+    .iconContainerGrid {
+        padding: 7px;
+    }
+
+    .gridIconResumeKananBawah {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 20px;
+    }
+
+    .BagianBawahkanan {
+        height: 170px;
+    }
+
+    .mapsTitleMaps {
+        font-size: 8px;
+    }
+}
