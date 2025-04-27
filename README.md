@@ -1,4 +1,4 @@
-# 25-coy 🖥️🚀
+# rush-v7 🖥️🚀
 
 ![Vite](https://img.shields.io/badge/Vite-6.3.1-blue?logo=vite) 
 ![React](https://img.shields.io/badge/React-19.0.0-61DAFB?logo=react) 
