@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import "./styles/about.css";
+import React, { useState } from "react";
 import myPhoto from "../assets/myPicture.jpg";
 import TypeWriter from "../components/TypeWriter";
 import Education from "../components/Education";

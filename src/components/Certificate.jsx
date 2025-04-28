@@ -1,6 +1,6 @@
+import "./styles/certificate.css";
 import React from "react";
 import { GiAchievement } from "react-icons/gi";
-import "./styles/certificate.css";
 import { AnimatePresence, motion } from "framer-motion";
 import pertama from '../assets/BackendDev.png'
 import kedua from '../assets/Front-endDev.png'

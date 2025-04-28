@@ -129,7 +129,7 @@
     .gridEducation {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        height: 125px;
+        height: 210px;
     }
 
     .yearEducationCardJenis {

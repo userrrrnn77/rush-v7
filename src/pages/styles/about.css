@@ -231,16 +231,21 @@
         flex-direction: column;
     }
 
+    .titleAbout{
+        align-items: center;
+        display: flex;
+    }
+
     .sayHiAbout {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .myPhoto {
-        width: 25px;
+        width: 30px;
     }
 
     .MyNameAbout {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .descriptAbout {
@@ -258,10 +263,11 @@
 
     .aboutKiri {
         height: 200px;
+        width: 100%;
     }
 
     .aboutKanan {
-        height: 165px;
+        height: 225px;
     }
 
     .kananKiri {

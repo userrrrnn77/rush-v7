@@ -142,6 +142,7 @@
     .homeKananKiri {
         display: flex;
         flex-direction: column;
+        gap: 40px;
     }
 
     .homeContainer {
@@ -164,12 +165,13 @@
     }
 
     .WorkAsTypeWriter {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .statsAngkaDanHuruf {
         display: flex;
         align-items: center;
+        gap: 5px;
     }
 
     .home {
@@ -185,7 +187,7 @@
     }
 
     .iconHome {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .SosmedStack {
@@ -194,15 +196,30 @@
     }
 
     .iconContainerHome {
-        padding: 5px;
+        padding: 7.5px;
     }
 
     .homeBagianKanan {
-        display: none;
+        height: 200px;
+        width: 400px;
+    }
+
+    .dotLottieClassName {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .dotLottieClassName:hover {
+        transform: rotate(-7deg) scale(1.02);
     }
 
     .homeBagianBawah {
         padding: 0px 4rem;
+        gap: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .homeBagianKiri {
@@ -218,7 +235,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;padding: auto;
+        text-align: center;
+        padding: auto;
     }
 
     .sayHiBoy {
@@ -299,11 +317,11 @@
         width: 70%;
     }
 
-    .angkaStats{
+    .angkaStats {
         font-size: 18px;
     }
 
-    .hurufTextHome{
+    .hurufTextHome {
         font-size: 12px;
     }
 }
