@@ -20,59 +20,10 @@ const Education = () => {
         <div className="gridEducation">
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
-              <span className="codeTitle">Code Academy</span>
-              <span className="codeSubTitle">Backend Developer</span>
-            </h4>
-            <p className="yearEducationCard">2025 - 2025</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">Destroy Skills</span>
+              <span className="codeTitle">Programing Otodidak</span>
               <span className="codeSubTitle">Web Developer</span>
             </h4>
-            <p className="yearEducationCard">2024 - 2025</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">Code Camp</span>
-              <span className="codeSubTitle">Frontend Developer</span>
-            </h4>
-            <p className="yearEducationCard">2024 - 2025</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">Code OP</span>
-              <span className="codeSubTitle">Course Javascript</span>
-            </h4>
-            <p className="yearEducationCard">2023 - 2024</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">ADA Developer Academy</span>
-              <span className="codeSubTitle">Responsive Web Design</span>
-            </h4>
-            <p className="yearEducationCard">2023 -2024</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">FreeCodeCamp</span>
-              <span className="codeSubTitle">Data Structures</span>
-            </h4>
-            <p className="yearEducationCard">2023 - 2024</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">Strong Coder</span>
-              <span className="codeSubTitle">Data Visualization</span>
-            </h4>
-            <p className="yearEducationCard">2023 - 2024</p>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">My Skill</span>
-              <span className="codeSubTitle">Ui/Ux Design</span>
-            </h4>
-            <p className="yearEducationCard">2022 - 2023</p>
+            <p className="yearEducationCard">2024 - Present</p>
           </div>
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
@@ -80,6 +31,13 @@ const Education = () => {
               <span className="codeSubTitle">Grapich Design</span>
             </h4>
             <p className="yearEducationCard">2019 - 2022</p>
+          </div>
+          <div className="cardGridEducation">
+            <h4 className="titleEducationCard">
+              <span className="codeTitle">SMPN 33 Semarang</span>
+              <span className="codeSubTitle">Design Otodidak</span>
+            </h4>
+            <p className="yearEducationCard">2016 - 2019</p>
           </div>
         </div>
       </motion.section>

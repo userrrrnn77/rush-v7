@@ -19,18 +19,8 @@ const Experience = () => {
         <div className="gridEducation">
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
-              <span className="codeTitle">Web3 Jobs</span>
-              <span className="codeSubTitle">Full Stack Freelance</span>
-            </h4>
-            <div className="kananExp">
-              <p className="yearEducationCardkontol">2025 - 2025</p>
-              <p className="yearEducationCardJenis">Remote</p>
-            </div>
-          </div>
-          <div className="cardGridEducation">
-            <h4 className="titleEducationCard">
-              <span className="codeTitle">Help Portal</span>
-              <span className="codeSubTitle">Full Stack</span>
+              <span className="codeTitle">Pramuniaga</span>
+              <span className="codeSubTitle">ADA Swalayan</span>
             </h4>
             <div className="kananExp">
               <p className="yearEducationCardkontol">2024 - 2025</p>
@@ -39,8 +29,8 @@ const Experience = () => {
           </div>
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
-              <span className="codeTitle">CroCode_Id</span>
-              <span className="codeSubTitle">Frontend Developer</span>
+              <span className="codeTitle">Cleaning Service</span>
+              <span className="codeSubTitle">RS Roemani Semarang</span>
             </h4>
             <div className="kananExp">
               <p className="yearEducationCardkontol">2024 - 2024</p>
@@ -49,22 +39,32 @@ const Experience = () => {
           </div>
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
-              <span className="codeTitle">Free Jobs</span>
-              <span className="codeSubTitle">Frontend Freelance</span>
+              <span className="codeTitle">Designer & Customer Service</span>
+              <span className="codeSubTitle">Indoprinting</span>
             </h4>
             <div className="kananExp">
               <p className="yearEducationCardkontol">2023 - 2024</p>
-              <p className="yearEducationCardJenis">Remote</p>
+              <p className="yearEducationCardJenis">On Site</p>
             </div>
           </div>
           <div className="cardGridEducation">
             <h4 className="titleEducationCard">
-              <span className="codeTitle">NetCode</span>
-              <span className="codeSubTitle">Junior Frontend</span>
+              <span className="codeTitle">Baker</span>
+              <span className="codeSubTitle">CV Margo Gandhum</span>
             </h4>
             <div className="kananExp">
               <p className="yearEducationCardkontol">2022 - 2023</p>
-              <p className="yearEducationCardJenis">Hybird</p>
+              <p className="yearEducationCardJenis">On Site</p>
+            </div>
+          </div>
+          <div className="cardGridEducation">
+            <h4 className="titleEducationCard">
+              <span className="codeTitle">Designer & Quality Control</span>
+              <span className="codeSubTitle">CV Gajah Mandiri</span>
+            </h4>
+            <div className="kananExp">
+              <p className="yearEducationCardkontol">2022 - 2022</p>
+              <p className="yearEducationCardJenis">On Site</p>
             </div>
           </div>
         </div>
