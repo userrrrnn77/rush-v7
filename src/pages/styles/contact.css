@@ -172,6 +172,7 @@
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    height: 21px;
     align-items: center;
 }
 
@@ -222,6 +223,7 @@
     width: 30px;
     border-radius: 50%;
     font-size: 30px;
+    height: 30px;
 }
 
 .commentBoy {
@@ -453,6 +455,7 @@
 
     .imageProfile {
         width: 15px;
+        height: 15px;
         font-size: 15px;
     }
 
@@ -471,6 +474,7 @@
     .imgView {
         width: 15px;
         font-size: 14px;
+        height: 15px;
     }
 
     .bawahUntukGetComments {
@@ -590,6 +594,7 @@
     .imageProfile {
         width: 20px;
         font-size: 20px;
+        height: 20px;
     }
 
     .usernameComment {
@@ -607,6 +612,7 @@
     .imgView {
         width: 20px;
         font-size: 16px;
+        height: 20px;
     }
 
     .bawahUntukGetComments {
